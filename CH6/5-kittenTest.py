@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 from anonBrowser import *
 
-ab = anonBrowser(proxies=[],\ 
-  user_agents=[('User-agent','superSecretBroswer')])
+ab = anonBrowser(proxies=[], user_agents=[('User-agent','superSecretBroswer')])
 
 for attempt in range(1, 5):
     ab.anonymize()
